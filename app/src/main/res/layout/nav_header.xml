@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+     android:background="@color/white"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pix"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/profile_3png"/>
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miracle Eugene"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eugenemiracle07@gmail.com"
+        android:textSize="16sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9C9797"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</LinearLayout>
